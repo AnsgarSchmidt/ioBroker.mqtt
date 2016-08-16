@@ -47,6 +47,7 @@
         "type":                 "client",
         "port":                 1883,
         "ssl":                  false,
+        "clientId":             "ioBroker.net",
         "user":                 "",
         "pass":                 "",
         "url":                  "localhost",

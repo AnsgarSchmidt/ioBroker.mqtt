@@ -19,6 +19,7 @@
         "MQTT adapter settings":  {"en": "MQTT adapter settings",  "de": "MQTT Adapter-Einstellungen",  "ru": "Настройки драйвера MQTT"},
         "Type:":                  {"en": "Type:",                  "de": "Typ:",                   "ru": "Тип:"},
         "Port:":                  {"en": "Port:",                  "de": "Port:",                  "ru": "Порт:"},
+        "Client ID:":             {"en": "Client ID",              "de": "Client ID:",             "ru": "Client ID:"},
         "User:":                  {"en": "User:",                  "de": "Username:",              "ru": "Имя пользователя:"},
         "Password:":              {"en": "Password:",              "de": "Kennwort:",              "ru": "Пароль:"},
         "Password confirmation:": {"en": "Password confirmation:", "de": "Kennwort-Wiederholung:", "ru": "Подтверждение пароля:"},
@@ -26,7 +27,7 @@
         "Secure:":                {"en": "Secure:",                "de": "SSL:",                   "ru": "SSL:"},
         "Public certificate:":    {"en": "Public certificate:",    "de": "Publikzertifikat:",      "ru": "'Public' сертификат:"},
         "Private certificate:":   {"en": "Private certificate:",   "de": "Privatzertifikat:",      "ru": "'Private' сертификат:"},
-        "Chained certificate:":   {"en": "Chained certificate:",    "de": "Kettenzertifikat:",       "ru": "'Chained' сертификат:"},
+        "Chained certificate:":   {"en": "Chained certificate:",   "de": "Kettenzertifikat:",      "ru": "'Chained' сертификат:"},
         "Patterns:":              {"en": "Subscribe patterns:",    "de": "Subscribe patterns:",    "ru": "Patterns:"},
         "Divided by comma":       {
             "en": "Divided by comma, e.g. 'mqtt/0/#,javascript/#'",
@@ -340,6 +341,11 @@
         <tr>
             <td colspan='3'><h4 class="translate">Authentication settings</h4></td>
         </tr>
+        <tr>
+            <td class="translate">Client ID:</td>
+            <td><input id="clientId" type="text" size="17" class="value"/></td>
+            <td></td>
+        </tr>        
         <tr>
             <td class="translate">User:</td>
             <td><input id="user" type="text" size="17" class="value"/></td>
